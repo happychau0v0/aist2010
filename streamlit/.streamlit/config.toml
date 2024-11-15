@@ -1,0 +1,8 @@
+# .streamlit/config.toml
+
+[theme]
+primaryColor = "#1DB954"  # Spotify green for buttons and highlights
+backgroundColor = "#121212"  # Dark background (Spotify's dark gray)
+secondaryBackgroundColor = "#191414"  # Slightly lighter background for secondary sections
+textColor = "#FFFFFF"  # White text for good contrast on the dark background
+font = "sans serif"  # Choose "sans serif" for a modern look
