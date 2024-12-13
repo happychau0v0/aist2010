@@ -28,6 +28,8 @@ Provide the output in the exact format as follows:
 
 Example output format:
 
+Given input is an image of a jazz bar:
+
 ```
 acousticness: 0.7
 danceability: 0.5
@@ -38,7 +40,7 @@ loudness: -23.8
 speechiness: 0.1
 valence: 0.9
 tempo: 120.0
-genre: anime
+genre: Jazz
 ```
 
 ### Important Rules:
