@@ -2,14 +2,7 @@ import requests
 import csv
 
 def generate_playlist_csv(playlist_id, access_token, output_file="playlist_data.csv"):
-    """
-    Generate a CSV file with detailed track information from a Spotify playlist.
 
-    Parameters:
-    playlist_id (str): The Spotify ID of the playlist.
-    access_token (str): A valid Spotify API access token.
-    output_file (str): The name of the output CSV file (default: "playlist_data.csv").
-    """
     # Base URLs for Spotify API endpoints
     playlist_url = f"https://api.spotify.com/v1/playlists/{playlist_id}/tracks"
     audio_features_url = "https://api.spotify.com/v1/audio-features"
